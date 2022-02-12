@@ -1,0 +1,22 @@
+{
+  "name": "cypress-demo",
+  "version": "1.0.0",
+  "description": "Cypress Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryanjb9/CypressDemo.git"
+  },
+  "author": "Bryan Jimenez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bryanjb9/CypressDemo/issues"
+  },
+  "homepage": "https://github.com/bryanjb9/CypressDemo#readme",
+  "devDependencies": {
+    "cypress": "^9.4.1"
+  }
+}
