@@ -50,7 +50,7 @@ describe('ToolsQA Text Box test suite', () => {
 
     })
 
-    it.only('TEST 3', () => {
+    it('TEST 3', () => {
         cy.fillForm(
             CONFIG.TESTS.TEST3.FULL_NAME,
             CONFIG.TESTS.TEST3.EMAIL,
