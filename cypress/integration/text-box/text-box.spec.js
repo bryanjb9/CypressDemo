@@ -4,6 +4,7 @@ import { CONFIG } from '../../support';
 
 const selectors = {
     email: '#userEmail',
+    output: '#output',
     outputFullName: '#output #name',
     outputEmail: '#output #email',
     outputCurrentAddress: '#output #currentAddress',
@@ -49,7 +50,7 @@ describe('ToolsQA Text Box test suite', () => {
 
     })
 
-    it('TEST 3', () => {
+    it.only('TEST 3', () => {
         cy.fillForm(
             CONFIG.TESTS.TEST3.FULL_NAME,
             CONFIG.TESTS.TEST3.EMAIL,
@@ -58,6 +59,7 @@ describe('ToolsQA Text Box test suite', () => {
             );
 
         cy.get(selectors.email).should('have.class','field-error');
+        cy.get(selectors.output).should('not.be.visible');
 
     })
        
