@@ -18,3 +18,26 @@ import './commands'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+const CONFIG = {
+    TESTS: {
+      TEST1: {
+        FULL_NAME: 'test user',
+        EMAIL: 'test@blabla.com',
+        CURRET_ADDRESS: 'C. Dobla, 5, 28054 Madrid, Spain',
+        PERMANET_ADDRESS: 'Street X, 28013 Madrid, Spain',
+      },      
+      TEST2: {
+        FULL_NAME: 'John Smith',
+        EMAIL: 'john.smith@mailinator.com',
+        CURRET_ADDRESS: 'Street Smith 3, London, UK',
+        PERMANET_ADDRESS: 'Street Smith 6, London, UK',
+      },      
+      TEST3: {
+        FULL_NAME: '',
+        EMAIL: 'thisisnotanemail',
+        CURRET_ADDRESS: '',
+        PERMANET_ADDRESS: '',
+      },
+    },
+  };
+  export { CONFIG };
