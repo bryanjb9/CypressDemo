@@ -33,6 +33,8 @@ describe('ToolsQA Text Box test suite', () => {
         cy.get(selectors.outputCurrentAddress).should('include.text',CONFIG.TESTS.TEST1.CURRET_ADDRESS);
         cy.get(selectors.outputPermanetAddress).should('include.text', CONFIG.TESTS.TEST1.PERMANET_ADDRESS);
 
+        cy.wait(5000);
+
     })
 
     it('TEST 2', () => {
@@ -48,6 +50,8 @@ describe('ToolsQA Text Box test suite', () => {
         cy.get(selectors.outputCurrentAddress).should('include.text',CONFIG.TESTS.TEST2.CURRET_ADDRESS);
         cy.get(selectors.outputPermanetAddress).should('include.text', CONFIG.TESTS.TEST2.PERMANET_ADDRESS);
 
+        cy.wait(5000);
+
     })
 
     it('TEST 3', () => {
@@ -60,6 +64,8 @@ describe('ToolsQA Text Box test suite', () => {
 
         cy.get(selectors.email).should('have.class','field-error');
         cy.get(selectors.output).should('not.be.visible');
+
+        cy.wait(5000);
 
     })
        
