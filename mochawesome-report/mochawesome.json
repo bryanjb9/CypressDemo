@@ -1,0 +1,138 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-02-13T13:03:58.834Z",
+    "end": "2022-02-13T13:04:24.230Z",
+    "duration": 25396,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "59d26489-3b0e-43a7-a600-296fbbd20144",
+      "title": "",
+      "fullFile": "cypress/integration/text-box/text-box.spec.js",
+      "file": "cypress/integration/text-box/text-box.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "89604137-fd51-4faa-b04b-6b128154f9a9",
+          "title": "ToolsQA Text Box test suite",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "TEST 1",
+              "fullTitle": "ToolsQA Text Box test suite TEST 1",
+              "timedOut": null,
+              "duration": 9509,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.fillForm(_support.CONFIG.TESTS.TEST1.FULL_NAME, _support.CONFIG.TESTS.TEST1.EMAIL, _support.CONFIG.TESTS.TEST1.CURRET_ADDRESS, _support.CONFIG.TESTS.TEST1.PERMANET_ADDRESS);\ncy.get(selectors.outputFullName).should('include.text', _support.CONFIG.TESTS.TEST1.FULL_NAME);\ncy.get(selectors.outputEmail).should('include.text', _support.CONFIG.TESTS.TEST1.EMAIL);\ncy.get(selectors.outputCurrentAddress).should('include.text', _support.CONFIG.TESTS.TEST1.CURRET_ADDRESS);\ncy.get(selectors.outputPermanetAddress).should('include.text', _support.CONFIG.TESTS.TEST1.PERMANET_ADDRESS);\ncy.wait(5000);",
+              "err": {},
+              "uuid": "a42e4059-95d5-4b30-bd74-f927b18ad780",
+              "parentUUID": "89604137-fd51-4faa-b04b-6b128154f9a9",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TEST 2",
+              "fullTitle": "ToolsQA Text Box test suite TEST 2",
+              "timedOut": null,
+              "duration": 8650,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.fillForm(_support.CONFIG.TESTS.TEST2.FULL_NAME, _support.CONFIG.TESTS.TEST2.EMAIL, _support.CONFIG.TESTS.TEST2.CURRET_ADDRESS, _support.CONFIG.TESTS.TEST2.PERMANET_ADDRESS);\ncy.get(selectors.outputFullName).should('include.text', _support.CONFIG.TESTS.TEST2.FULL_NAME);\ncy.get(selectors.outputEmail).should('include.text', _support.CONFIG.TESTS.TEST2.EMAIL);\ncy.get(selectors.outputCurrentAddress).should('include.text', _support.CONFIG.TESTS.TEST2.CURRET_ADDRESS);\ncy.get(selectors.outputPermanetAddress).should('include.text', _support.CONFIG.TESTS.TEST2.PERMANET_ADDRESS);\ncy.wait(5000);",
+              "err": {},
+              "uuid": "f9ce48d3-7172-4825-8b82-cbdecd91c040",
+              "parentUUID": "89604137-fd51-4faa-b04b-6b128154f9a9",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TEST 3",
+              "fullTitle": "ToolsQA Text Box test suite TEST 3",
+              "timedOut": null,
+              "duration": 7123,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.fillForm(_support.CONFIG.TESTS.TEST3.FULL_NAME, _support.CONFIG.TESTS.TEST3.EMAIL, _support.CONFIG.TESTS.TEST3.CURRET_ADDRESS, _support.CONFIG.TESTS.TEST3.PERMANET_ADDRESS);\ncy.get(selectors.email).should('have.class', 'field-error');\ncy.get(selectors.output).should('not.be.visible');\ncy.wait(5000);",
+              "err": {},
+              "uuid": "a56019ee-7774-4346-9db9-61ace3ee9530",
+              "parentUUID": "89604137-fd51-4faa-b04b-6b128154f9a9",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "a42e4059-95d5-4b30-bd74-f927b18ad780",
+            "f9ce48d3-7172-4825-8b82-cbdecd91c040",
+            "a56019ee-7774-4346-9db9-61ace3ee9530"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 25282,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.0.1"
+    }
+  }
+}

@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/bryanjb9/CypressDemo#readme",
   "devDependencies": {
-    "cypress": "^9.4.1"
+    "cypress": "^9.4.1",
+    "mochawesome": "^7.0.1"
   }
 }
